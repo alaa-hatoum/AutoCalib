@@ -24,7 +24,7 @@ void Create_ColorBar()
         pColor[ba * 3 + 1] = S[s / 13];
         pColor[ba * 3 + 2] = V[v / 13 / 3];
     }
-    cv::cvtColor(color, color_bar, CV_HSV2BGR);
+    cv::cvtColor(color, color_bar, cv::COLOR_HSV2BGR);
 }
 
 
